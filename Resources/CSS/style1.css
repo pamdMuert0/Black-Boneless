@@ -1,0 +1,92 @@
+@media screen and (max-width: 600px) {
+    .Login {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .LateralIzq,
+    .LateralDer {
+      padding: 1em;
+    }
+}
+body {
+    font-family: 'Josefin sans', sans-serif;
+    background-color: #F8F8F8;
+}
+input[type="submit"] {
+    background-color: #FC8706;
+    border-radius: 100px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px #D9D9D9;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 300px; 
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 10px #D9D9D9;
+    border: none;
+    font-family: 'Josefin sans', sans-serif;
+    text-indent: 20px;
+}
+
+input[type="text"],[type="password"]{
+    text-align: left;
+    text-indent: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #F0B54E;
+}
+::placeholder {
+    border: none;
+    color: lightgray;
+}
+
+
+label {
+    letter-spacing: 0.96px;
+    word-wrap: break-word;
+    font-size: 15px;
+    color: lightgray;
+    text-align: center;
+}
+.LateralIzq {
+    width: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px; 
+    align-items: center;
+}
+.LateralDer {
+    width: calc(50% - 1vw);
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    overflow: hidden;
+    position: relative;
+}
+img.Imagen {
+    width: 100%;
+    height: auto; 
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px #D9D9D9;
+    max-width: none;
+    position: absolute;
+}
+.Login{
+    display: flex;
+}

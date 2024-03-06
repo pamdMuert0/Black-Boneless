@@ -1,0 +1,15 @@
+iframe{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 60px;
+    border: none;
+}
+body{
+    font-family: "Josefin sans",sans-serif;
+    background-color: F8f8f8;
+}
+.body{
+    padding-left: 60px;
+}
