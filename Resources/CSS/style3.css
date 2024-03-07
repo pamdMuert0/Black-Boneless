@@ -10,6 +10,7 @@ body{
     font-family: "Josefin sans",sans-serif;
     background-color: F8f8f8;
     padding-left: 80px;
+    padding-top: 15px;
 }
 .dashboard{
     display: grid;
@@ -38,13 +39,30 @@ button{
     display: inline-block;
     font-family: 'Josefin sans', sans-serif;
     cursor: pointer;
+    font-size: 24px;
     padding: 10px 20px;
     margin: 4px 2px;
+    justify-content: center;
+    align-items: center;
 }
 .botones i{
     float: left;
     margin-right: 10px;
+    font-size: 32;
 }
 button:hover{
     background-color: #F0B54E;
+}
+.fi-sr-star{
+    padding-left: 20px;
+    color: #F0B54E;
+    align-items: center;
+}
+.contenedor{
+    width: 200px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+    box-shadow: 0px 4px 10px #D9D9D9;
 }
