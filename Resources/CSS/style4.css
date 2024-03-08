@@ -1,0 +1,14 @@
+iframe{
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%; 
+    border: none;
+    position: fixed;
+}
+body{
+    padding-top: 15px;
+    padding-left: 80px;
+    background-color: #F8f8f8;
+    font-family: "Josefin sans",sans-serif;
+}

@@ -75,7 +75,6 @@ label {
     margin: 0.5em;
     border-radius: 20px;
     box-sizing: border-box;
-    background-color: aquamarine;
     overflow: hidden;
     position: relative;
 }
@@ -89,4 +88,9 @@ img.Imagen {
 }
 .Login{
     display: flex;
+}
+a{
+    font-weight: bold;
+    color: lightgray;
+    text-decoration: none;
 }
