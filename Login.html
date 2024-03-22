@@ -19,8 +19,8 @@
           <input type="password" id="pwd" name="pwd" placeholder="Contraseña"><br><br>
           <input type="submit" value="Login">
         </form>
-        <div id="help">
-          <a href="#">¿Necesitas ayuda?</a>
+        <div clas="popup">
+          <button class="help" onclick="openPopup()">¿Necesitas ayuda?</button>
         </div>
       </div>
     </div>
@@ -29,5 +29,21 @@
       <img class="Imagen" src="/Resources/Imagenes/Login.png" />
     </div>
   </div>
+
+  <div id="popup" class="popup">
+    <h2>¿Necesitas ayuda?</h2>
+    <p>Contacta con el administrador</p>
+    <button onclick="closePopup()">Cerrar</button>
+  </div>
+
+  <script>
+    function openPopup() {
+        document.getElementById('popup').style.display = 'block'; // Mostrar el cuadro de diálogo
+    }
+
+    function closePopup() {
+        document.getElementById('popup').style.display = 'none'; // Ocultar el cuadro de diálogo
+    }
+  </script>
 </body>
 </html>
